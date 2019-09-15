@@ -1,0 +1,29 @@
+{
+    "address": "wss://hack.chat/chat-ws",
+    "channel": "htpmqk99",
+    "password": "",
+    "settings": {
+        "adminsBackgroundColor": "default",
+        "adminsColor": "red",
+        "allowBanning": false,
+        "commandsBeginWith": "/",
+        "commandsEnabled": true,
+        "displayNonTripsAs": "NOTRIP",
+        "displayUsernamesEqualSized": true,
+        "haveColors": true,
+        "modsBackgroundColor": "default",
+        "modsColor": "green",
+        "normalBackgroundColor": "default",
+        "normalColor": "white",
+        "separateUserAndPass": false,
+        "serverBackgroundColor": "green",
+        "serverColor": "black",
+        "warningBackgroundColor": "yellow",
+        "warningColor": "red",
+        "youAreAdmin": false,
+        "youAreMod": false,
+        "youBackgroundColor": "black",
+        "youColor": "yellow"
+    },
+    "username": "tangyida0"
+}
