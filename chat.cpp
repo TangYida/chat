@@ -21,7 +21,7 @@ inline int lauch()
 
 inline void help()
 {
-	std::cout << "char: use hack.chat and hack.chat-terminal-client\n"
+	std::cout << "chat: use hack.chat and hack.chat-terminal-client\n"
 		"options:\n"
 		"-r [roomname]:must be provided.\n"
 		"-u [username]:must be provided.\n";
@@ -66,7 +66,7 @@ inline bool writeUser(std::string name)
 int main(int argc,char** argv)
 {
 	if(argc < 2) {
-		std::cerr << "Please provide your room name and username";
+		std::cerr << "Please provide your room name and username\n";
 		help();
 		exit(1);
 	}
