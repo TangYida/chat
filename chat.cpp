@@ -1,10 +1,18 @@
-#include<nlohmann/json.hpp>
+/*
+ * Copyright 2019 TangYida
+ *
+ * chat
+ *
+ */
+
+#include "./include/nlohmann/json.hpp"
+
 #include<sys/stat.h>
 #include<fcntl.h>
 #include<bits/stdc++.h>
 
-const std::string configPath{"/home/tangyida/hack.chat-terminal-client/config.json"};
-const std::string runPath{"node ~/hack.chat-terminal-client/index.js"};
+const std::string configPath{"./hack.chat-terminal-client/config.json"};
+const std::string runPath{"node ./hack.chat-terminal-client/index.js"};
 
 inline int lauch()
 {
